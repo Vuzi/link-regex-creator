@@ -1,7 +1,7 @@
 {
   "name": "Link Regex Creator",
   "description": "Create custom links based on regex",
-  "version": "0.1",
+  "version": "0.2",
   "permissions": [
     "contextMenus",
     "storage"
