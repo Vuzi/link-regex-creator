@@ -4,71 +4,71 @@
   <title>My Test Extension Options</title>
   <style>
     body {
-		padding: 10px;
-	}
+    padding: 10px;
+  }
 
-	.conf {
-		width: 430px;
-		border: 1px solid gray;
-		border-collapse: collapse;
-	}
+  .conf {
+    width: 430px;
+    border: 1px solid gray;
+    border-collapse: collapse;
+  }
 
-	.conf th {
-		padding: 13px;
-    	padding-top: 10px;
-	}
+  .conf th {
+    padding: 13px;
+      padding-top: 10px;
+  }
 
-	.conf td, .conf th {
-		width: 200px;
-		border: 1px solid gray;
-	}
+  .conf td, .conf th {
+    width: 200px;
+    border: 1px solid gray;
+  }
 
-	.conf td textarea {
-		margin: 0;
-		border: none;
-		width: 100%;
-	}
+  .conf td textarea {
+    margin: 0;
+    border: none;
+    width: 100%;
+  }
 
-	.controls {
-		padding-top: 15px;
-		padding-bottom: 15px;
-	}
+  .controls {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
 
-	#status {
-		display: inline-block;
-		padding-left: 10px;
-	}
+  #status {
+    display: inline-block;
+    padding-left: 10px;
+  }
 
   </style>
 </head>
 
 <body>
-	<table class="conf">
-		<thead>
-			<tr>
-				<th> Matching regex </th>
-				<th> Generated URL </th>
-			</tr>
-		</thead>
-		<tbody id="table" >
-			
-		</tbody>
-	</table>
+  <table class="conf">
+    <thead>
+      <tr>
+        <th> Matching regex </th>
+        <th> Generated URL </th>
+      </tr>
+    </thead>
+    <tbody id="table" >
+      
+    </tbody>
+  </table>
   
-	<div class="controls" > 
-		<button id="add">Add line</button>
-		<button id="remove">Remove last line</button>
-	</div>
-	<div class="controls" > 
-		<label>Load JSON file : <input type="file" id="fileinput"/></label>
-	</div>
+  <div class="controls" > 
+    <button id="add">Add line</button>
+    <button id="remove">Remove last line</button>
+  </div>
+  <div class="controls" > 
+    <label>Load JSON file : <input type="file" id="fileinput"/></label>
+  </div>
 
-	<div class="controls" > 
-  	<button id="save">Save</button>
-		<div id="status" ></div>
-	</div>
+  <div class="controls" > 
+    <button id="save">Save</button>
+    <div id="status" ></div>
+  </div>
 
-  	<script src="options.js"></script>
+    <script src="options.js"></script>
 </body>
 </html>
 
